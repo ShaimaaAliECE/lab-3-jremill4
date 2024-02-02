@@ -35,7 +35,7 @@ namespace Lab3App
             // using a foreach loop
             foreach (Collectable collectable in  possibleCollectiable)
             {
-                collectable.Board = board;
+                collectable.board = board;
             }
 
             // Create an empty list to start collecting 
